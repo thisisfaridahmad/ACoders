@@ -1,0 +1,91 @@
+.q1{
+    margin-top: 100vh;
+}
+.q2, .q4{
+    margin-left: 35vw;
+    margin-top: 40px;
+}
+.q1 , .q2, .q3 , .q4{
+    overflow: hidden;
+    width: 60%;
+    min-height: 100px;
+    height: auto;
+    border-radius: 10px;
+}
+.q1 p, .q2 p, .q3 p, .q4 p{
+    font-family: monospace;
+    text-align: center;
+    font-size: 1.2em;
+    margin: 10px;
+}
+.q1 h2, .q2 h2, .q3 h2, .q4 h2{
+    font-family: monospace;
+    margin: 10px;
+    text-align: center;
+    font-size: 2em;
+}
+
+@media screen and (max-width: 900px) {
+    .q1, .q2, .q3, .q4{
+        width: 100%;
+    }
+    .q2, .q4{
+        margin-left: 0;
+    }
+    #ibb-img{
+        width: 30%;
+    }
+}
+
+.sponsers-div{
+    width: 100%;
+    display: block;
+    margin: auto;
+    overflow-x:hidden;
+    text-align: center;
+    margin-top: 100px;
+}
+#ibb-img{
+    display: block;
+    margin: auto;
+}
+.sponsers-div h2{
+    margin-bottom: 40px;
+}
+
+
+
+input{
+    margin: auto;
+    width: 80%;
+    display: block;
+    border: 1px solid rgba(0,0,0,0.4);
+    height: 40px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: auto;
+}
+textarea{
+    resize: none;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.4);
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-bottom: 5px;
+    cursor: auto;
+}
+.submit{
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.submit:hover{
+    background-color: rgba(0,0,0,0.9);
+    color: white;
+}
+form h3{
+    text-align: center;
+}
+form{
+    margin-top: 200px;
+}
